@@ -63,6 +63,7 @@ php artisan key:generate
 Configure database in .env:
 
 env
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -74,6 +75,7 @@ REDIS_CLIENT=predis
 REDIS_HOST=127.0.0.1
 REDIS_PASSWORD=null
 REDIS_PORT=6379
+```
 Run migrations and seeders:
 
 ```bash
